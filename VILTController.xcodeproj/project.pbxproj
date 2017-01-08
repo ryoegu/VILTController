@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20B5E9F316454C5E4AF77502 /* Pods_VILTControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8715874F069719C717F245F7 /* Pods_VILTControllerUITests.framework */; };
 		2AF620561E222EA300FBC644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF620551E222EA300FBC644 /* AppDelegate.swift */; };
 		2AF620581E222EA300FBC644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF620571E222EA300FBC644 /* ViewController.swift */; };
 		2AF6205B1E222EA300FBC644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF620591E222EA300FBC644 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		2AF620601E222EA300FBC644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF6205E1E222EA300FBC644 /* LaunchScreen.storyboard */; };
 		2AF6206B1E222EA300FBC644 /* VILTControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6206A1E222EA300FBC644 /* VILTControllerTests.swift */; };
 		2AF620761E222EA300FBC644 /* VILTControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF620751E222EA300FBC644 /* VILTControllerUITests.swift */; };
+		572658618DA8C939C6740015 /* Pods_VILTControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CBCABED7F96CF2B59F2361 /* Pods_VILTControllerTests.framework */; };
+		E1051B5C2B3399C2B3AA751D /* Pods_VILTController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E936DA32E7E97E7CCA9500 /* Pods_VILTController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		2AF620711E222EA300FBC644 /* VILTControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VILTControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF620751E222EA300FBC644 /* VILTControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VILTControllerUITests.swift; sourceTree = "<group>"; };
 		2AF620771E222EA300FBC644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3242EB1F553AA9472BA77BF9 /* Pods-VILTControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VILTControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VILTControllerUITests/Pods-VILTControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44CBCABED7F96CF2B59F2361 /* Pods_VILTControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VILTControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D77451AEFCA627011A0FA5 /* Pods-VILTControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VILTControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VILTControllerTests/Pods-VILTControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		55E936DA32E7E97E7CCA9500 /* Pods_VILTController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VILTController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FB389B6DDD394D7931D160 /* Pods-VILTController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VILTController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VILTController/Pods-VILTController.debug.xcconfig"; sourceTree = "<group>"; };
+		6697D6555FFFCC649C3FBFD3 /* Pods-VILTControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VILTControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VILTControllerTests/Pods-VILTControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8715874F069719C717F245F7 /* Pods_VILTControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VILTControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD719F13BB8B9A40148668A /* Pods-VILTControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VILTControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VILTControllerUITests/Pods-VILTControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEC641C161EA615FB02D603C /* Pods-VILTController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VILTController.release.xcconfig"; path = "Pods/Target Support Files/Pods-VILTController/Pods-VILTController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1051B5C2B3399C2B3AA751D /* Pods_VILTController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572658618DA8C939C6740015 /* Pods_VILTControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B5E9F316454C5E4AF77502 /* Pods_VILTControllerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				2AF620691E222EA300FBC644 /* VILTControllerTests */,
 				2AF620741E222EA300FBC644 /* VILTControllerUITests */,
 				2AF620531E222EA300FBC644 /* Products */,
+				A5051EEE1044E82198932E45 /* Pods */,
+				6825424A001FA6E9ED9CEFDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = VILTControllerUITests;
 			sourceTree = "<group>";
 		};
+		6825424A001FA6E9ED9CEFDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E936DA32E7E97E7CCA9500 /* Pods_VILTController.framework */,
+				44CBCABED7F96CF2B59F2361 /* Pods_VILTControllerTests.framework */,
+				8715874F069719C717F245F7 /* Pods_VILTControllerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5051EEE1044E82198932E45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62FB389B6DDD394D7931D160 /* Pods-VILTController.debug.xcconfig */,
+				FEC641C161EA615FB02D603C /* Pods-VILTController.release.xcconfig */,
+				6697D6555FFFCC649C3FBFD3 /* Pods-VILTControllerTests.debug.xcconfig */,
+				47D77451AEFCA627011A0FA5 /* Pods-VILTControllerTests.release.xcconfig */,
+				CBD719F13BB8B9A40148668A /* Pods-VILTControllerUITests.debug.xcconfig */,
+				3242EB1F553AA9472BA77BF9 /* Pods-VILTControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF6207A1E222EA300FBC644 /* Build configuration list for PBXNativeTarget "VILTController" */;
 			buildPhases = (
+				70997D393AB043E331C33E6E /* [CP] Check Pods Manifest.lock */,
 				2AF6204E1E222EA300FBC644 /* Sources */,
 				2AF6204F1E222EA300FBC644 /* Frameworks */,
 				2AF620501E222EA300FBC644 /* Resources */,
+				48FDDB21884D97023C61582D /* [CP] Embed Pods Frameworks */,
+				A524ACB197370878898978BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF6207D1E222EA300FBC644 /* Build configuration list for PBXNativeTarget "VILTControllerTests" */;
 			buildPhases = (
+				91EF154B141510553B6C1B9D /* [CP] Check Pods Manifest.lock */,
 				2AF620621E222EA300FBC644 /* Sources */,
 				2AF620631E222EA300FBC644 /* Frameworks */,
 				2AF620641E222EA300FBC644 /* Resources */,
+				86958144EDFC8AE103AB4376 /* [CP] Embed Pods Frameworks */,
+				0A6AE624EE717BB80CC19C81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF620801E222EA300FBC644 /* Build configuration list for PBXNativeTarget "VILTControllerUITests" */;
 			buildPhases = (
+				4B12D20F0F3C43FF7130086C /* [CP] Check Pods Manifest.lock */,
 				2AF6206D1E222EA300FBC644 /* Sources */,
 				2AF6206E1E222EA300FBC644 /* Frameworks */,
 				2AF6206F1E222EA300FBC644 /* Resources */,
+				DC48553D17440067DBEDC776 /* [CP] Embed Pods Frameworks */,
+				6A9C332623E51B2E6BE4361B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A6AE624EE717BB80CC19C81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VILTControllerTests/Pods-VILTControllerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48FDDB21884D97023C61582D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VILTController/Pods-VILTController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B12D20F0F3C43FF7130086C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9C332623E51B2E6BE4361B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VILTControllerUITests/Pods-VILTControllerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70997D393AB043E331C33E6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86958144EDFC8AE103AB4376 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VILTControllerTests/Pods-VILTControllerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EF154B141510553B6C1B9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A524ACB197370878898978BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VILTController/Pods-VILTController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC48553D17440067DBEDC776 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VILTControllerUITests/Pods-VILTControllerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2AF6204E1E222EA300FBC644 /* Sources */ = {
@@ -411,6 +598,7 @@
 		};
 		2AF6207B1E222EA300FBC644 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62FB389B6DDD394D7931D160 /* Pods-VILTController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
@@ -424,6 +612,7 @@
 		};
 		2AF6207C1E222EA300FBC644 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC641C161EA615FB02D603C /* Pods-VILTController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
@@ -437,6 +626,7 @@
 		};
 		2AF6207E1E222EA300FBC644 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6697D6555FFFCC649C3FBFD3 /* Pods-VILTControllerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +642,7 @@
 		};
 		2AF6207F1E222EA300FBC644 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D77451AEFCA627011A0FA5 /* Pods-VILTControllerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +658,7 @@
 		};
 		2AF620811E222EA300FBC644 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD719F13BB8B9A40148668A /* Pods-VILTControllerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
@@ -481,6 +673,7 @@
 		};
 		2AF620821E222EA300FBC644 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3242EB1F553AA9472BA77BF9 /* Pods-VILTControllerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
