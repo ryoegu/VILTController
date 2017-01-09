@@ -600,6 +600,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62FB389B6DDD394D7931D160 /* Pods-VILTController.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
 				INFOPLIST_FILE = VILTController/Info.plist;
@@ -614,6 +615,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEC641C161EA615FB02D603C /* Pods-VILTController.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
 				INFOPLIST_FILE = VILTController/Info.plist;
@@ -705,6 +707,7 @@
 				2AF6207C1E222EA300FBC644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AF6207D1E222EA300FBC644 /* Build configuration list for PBXNativeTarget "VILTControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -713,6 +716,7 @@
 				2AF6207F1E222EA300FBC644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AF620801E222EA300FBC644 /* Build configuration list for PBXNativeTarget "VILTControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +725,7 @@
 				2AF620821E222EA300FBC644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
